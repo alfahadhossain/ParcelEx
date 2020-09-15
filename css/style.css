@@ -1,0 +1,183 @@
+body {
+    font-family: Lato, sans-serif, SiyamRupali;
+}
+/* START NAVBAR SECTION*/
+:focus {
+    outline: 0 !important;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+.nav-item:last-child {
+    margin-right: 0px;
+}
+.navbar a img {
+    width: 200px;
+}
+.nav-login:hover {
+    color: #40a9ff !important;
+}
+.nav-sign-up {
+    padding: 8px 25px !important;
+    background-color: #FB2283;
+    color: #fff !important;
+    border-radius: 20px;
+}
+.log-in:hover{
+    color: #92278F !important;
+}
+/* END NAVBAR SECTION */
+
+/* START CAROUSEL SECTION */
+.carousel-item {
+    height: 450px;
+}
+.carousel-img-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)), url("photos/carosel-2.jpg");
+    background-size: cover;
+}
+.carousel-img-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)), url("photos/carosel-3.jpg");
+    background-size: cover;
+}
+.carousel-img-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)), url("photos/carosel-5.jpg");
+    background-size: auto;
+}
+.carousel-indicators li::before {
+    width: 10px !important;
+    height: 10px !important;
+    line-height: 10px !important;
+}
+.carousel-item .mb-5 {
+    padding-bottom: 5rem !important;
+}
+.bottom-line::after {
+    content: "";
+    width: 100px;
+    border: 2px solid #92278F;
+    display: block;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+    margin: left;
+}
+.carousel-h2 {
+    max-width: 500px;
+}
+/* END CAROUSEL SECTION */
+/* START TRACK SECTION */
+.track-button{
+    background: green
+}
+.track-btn{
+    background: #9B2998;
+}
+
+/* START SERVICE SECTION */
+
+.service-head::after {
+    content: "";
+    width: 100px;
+    border: 2px solid #92278F;
+    display: block;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    margin: auto;
+}
+.service-secrion .card {
+    border: none;
+}
+.img-bkash {
+    max-width: 85px;
+    height: auto;
+}
+
+
+/* START DELEVARY SERVICE */
+.delevery-service-section {
+    background: #000;
+    color: #fff;
+}
+.delevery-head p::after {
+    content: "";
+    width: 110px;
+    border: 2px solid #92278F;
+    display: block;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    margin: auto;
+}
+.district-list {
+    padding-top: 20px;
+}
+
+.button-search {
+    width: 282px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #cf4aca;
+    color: #fff;
+}
+/* START MAPS SECTION */
+.maps-section {
+    background: #000;
+}
+
+.district-list p{
+    color: #ffffff;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    font-size: 14px;
+
+}
+.maps img {
+    width: 315px;
+}
+.p-r-div{
+    padding-right: 0px !important;
+}
+/* START DELEVARY SERVICE SECTION */
+
+.delerary-head h3::after {
+    content: "";
+    width: 110px;
+    border: 2px solid #cf4aca;
+    display: block;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    margin: auto;
+}
+.city-button button {
+    margin-right: 20px;
+    background: #cf4aca;
+    color: #fff;
+}
+
+.delevary-footer{
+    background: #cf4aca;
+}
+/* FOOTER SECTION */
+
+
+
+.footer-section {
+    background: #9B2998;
+    color: #fff;
+}
+.footer-section p{
+    color: #fff;
+}
+.footer-section p a{
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.google-play {
+    width: 150px;
+}
+/* 
+
+
+
